@@ -38,7 +38,7 @@ void Task27()
 // 9012 -> 12
 {
     Console.WriteLine("The sum of digits in a number");
-	int s = SumDigitFromNumber (ReadInt("number"));
+    int s = SumDigitFromNumber (ReadInt("number"));
     Console.WriteLine($"The sum of digits in a number: {s}");
 }
 
@@ -48,9 +48,7 @@ void Task29()
 // 6, 1, 33 -> [6, 1, 33]
 {
 	Console.WriteLine("Specifying an array and outputting it");
-
 	int[] array = GetArray(ReadInt("array length"));
-
 	Console.WriteLine(ArrayToString(array));
 }
 
