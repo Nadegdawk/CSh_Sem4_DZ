@@ -97,7 +97,7 @@ int SumDigitFromNumber (int number)           //сумма цифр в числ�
 {
 	string numString = number.ToString();
     int result = number % 10;
-        for (int i = 0; i < numString.Length-1; i++)
+    for (int i = 0; i < numString.Length-1; i++)
     {   
         int t = (number / Pow(10,i+1)) % 10;
         result = result + t;
